@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd  
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <description>Spring MVC</description>
+    
+    <!-- 属性和配置文件读入 ,多个用逗号隔开 数据库参数和系统参数 -->
+    <context:property-placeholder location="classpath:application.properties" />
+
+    <!-- 只搜索@Controller和@ControllerAdvice标注的类 不搜索其他标注的类 -->
+    <context:component-scan
+        base-package="dolphin.controller"
+        use-default-filters="false">
+        <context:include-filter type="annotation"
+            expression="org.springframework.stereotype.Controller" />
+        <context:include-filter type="annotation"
+            expression="org.springframework.web.bind.annotation.RestController" />
+        <context:include-filter type="annotation"
+            expression="org.springframework.web.bind.annotation.ControllerAdvice" />
+        <context:exclude-filter type="annotation"
+            expression="org.springframework.stereotype.Service" />
+    </context:component-scan>
+    
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+      <property name="prefix" value="/WEB-INF/jsp/" />
+      <property name="suffix" value=".jsp" />
+   </bean>
+</beans>

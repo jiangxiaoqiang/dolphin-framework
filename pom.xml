@@ -134,7 +134,6 @@
         </dependency>
 
         <!-- Thymeleaf -->
-        <!-- thymeleaf -->
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf</artifactId>

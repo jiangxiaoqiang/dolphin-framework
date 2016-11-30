@@ -11,6 +11,8 @@
 		<mybatis.version>3.3.1</mybatis.version>
 		<mybatis.spring.version>1.2.4</mybatis.spring.version>
 		<spring.version>4.2.3.RELEASE</spring.version>
+		<druid.version>1.0.20</druid.version>
+		<springSecurityVersion>4.0.4.RELEASE</springSecurityVersion>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -74,7 +76,6 @@
 			<version>1.7.2</version>
 		</dependency>
 
-
 		<!-- 日志 -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -102,6 +103,34 @@
 			<version>1.7.21</version>
 		</dependency>
 
+		<!--持久化-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+
+		<!--Spring MVC Security-->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>${springSecurityVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${springSecurityVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-aspects</artifactId>
+			<version>${springSecurityVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${springSecurityVersion}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>dolphin</finalName>

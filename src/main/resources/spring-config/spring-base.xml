@@ -16,7 +16,7 @@
 	<context:property-placeholder properties-ref="applicationProperties" 
 		ignore-resource-not-found="true" /> 
 
-	<context:component-scan base-package="dolphin.service.*">
+	<context:component-scan base-package="dolphin.service.*,dolphin.controller.*">
 		<!-- <context:include-filter type="annotation" expression="org.aspectj.lang.annotation.Aspect" 
 			/> <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" 
 			/> <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController" 

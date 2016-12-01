@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
  * Created by jiangxiaoqiang on 2016/11/30.
  */
 @Controller
+@RequestMapping("/user")
 public class LoginController {
     /**
      * @RequestParam注解的作用是：根据参数名从URL中取得参数值
@@ -29,7 +30,7 @@ public class LoginController {
             return "ok.jsp";
         } else {
             model.addAttribute("username", username);
-            return "no.jsp";
+            return "no";
         }
     }
 }

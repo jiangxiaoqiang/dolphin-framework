@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<display-name>Dolphin</display-name>
+	<display-name>dolphin</display-name>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:spring-config/spring-base.xml</param-value>
@@ -22,6 +22,6 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>dolphin</servlet-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 </web-app>

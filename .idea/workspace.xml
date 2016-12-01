@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a24249e-95cf-4439-9020-f80f81290245" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dolphin/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dolphin.iml" afterPath="$PROJECT_DIR$/dolphin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-config/spring-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-config/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/no.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login/no.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="dolphin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1003,7 +991,7 @@
       <workItem from="1480409741954" duration="3916000" />
       <workItem from="1480480601499" duration="3966000" />
       <workItem from="1480485205733" duration="10997000" />
-      <workItem from="1480569092494" duration="13495000" />
+      <workItem from="1480569092494" duration="13522000" />
     </task>
     <task id="LOCAL-00001" summary="add spring security dependency">
       <created>1480466192956</created>
@@ -1054,11 +1042,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480577208560</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加thymeleaf解析html视图">
+      <created>1480583115015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1480583115015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39548000" />
+    <option name="totallyTimeSpent" value="39575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1117,7 +1112,8 @@
     <MESSAGE value="add greeting controller" />
     <MESSAGE value="调通视图映射关系" />
     <MESSAGE value="添加登录页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加登录页面" />
+    <MESSAGE value="添加thymeleaf解析html视图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加thymeleaf解析html视图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

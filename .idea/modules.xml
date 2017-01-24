@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dolphin.iml" filepath="$PROJECT_DIR$/dolphin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dolphin-framework.iml" filepath="$PROJECT_DIR$/.idea/modules/dolphin-framework.iml" />
     </modules>
   </component>
 </project>

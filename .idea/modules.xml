@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dolphin.iml" filepath="$PROJECT_DIR$/dolphin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dolphin-framework.iml" filepath="$PROJECT_DIR$/.idea/modules/dolphin-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dolphin.iml" filepath="$PROJECT_DIR$/.idea/modules/dolphin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dolphin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dolphin_main.iml" group="dolphin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dolphin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dolphin_test.iml" group="dolphin" />
     </modules>
   </component>
 </project>

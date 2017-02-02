@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="dolphin-dolphin_main" target="1.8" />
+      <module name="dolphin-dolphin_test" target="1.8" />
       <module name="dolphin_main" target="1.8" />
       <module name="dolphin_test" target="1.8" />
     </bytecodeTargetLevel>

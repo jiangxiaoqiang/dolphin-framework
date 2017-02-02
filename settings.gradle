@@ -17,3 +17,5 @@ include 'services:webservice'
 */
 
 rootProject.name = 'dolphin'
+
+include ':dolphin', ':dolphin-core'
